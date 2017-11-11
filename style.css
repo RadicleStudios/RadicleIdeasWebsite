@@ -1,23 +1,14 @@
 /**** Layout ****/
 
+* {
+  box-sizing: border-box; }
+
 body {
   min-width: 320px;
   max-width: 720px; }
 
 main {
-  margin-left: 50%;
-  padding: 24px; }
-
-.left {
-  display: block;
-  float: left;
-  clear: left;
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: -100%;
-  padding: 24px;
-  padding-bottom: 0;
-  margin-top: -24px; }
+  padding: 12px; }
 
 img {
   width: 100%; }
@@ -25,8 +16,16 @@ img {
 hr {
   clear: both;
   margin: 0 12px;
-  border: 0;
-  border-bottom: 1px solid transparent; }
+  border: 0; border-bottom: 1px solid transparent; }
+
+p, h1 {
+  width: 60%;
+  margin-left: auto; }
+
+h2 {
+  width: 40%;
+  float: left;
+  padding-right: 12px; }
 
 /**** Typography ****/
 
